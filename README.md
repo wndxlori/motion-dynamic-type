@@ -1,5 +1,7 @@
 # Motion::Dynamic::Type
 
+[![Gem Version](https://badge.fury.io/rb/motion-dynamic-type.png)](http://badge.fury.io/rb/motion-dynamic-type) [![Code Climate](https://codeclimate.com/github/FluffyJack/motion-dynamic-type.png)](https://codeclimate.com/github/FluffyJack/motion-dynamic-type) [![Code Climate](https://codeclimate.com/github/FluffyJack/motion-dynamic-type.png)](https://codeclimate.com/github/FluffyJack/motion-dynamic-type)
+
 A simple RubyMotion wrapper for iOS 7's Dynamic Type to make it easier to set the fonts, as well as getting the information you need and notifications for responding to the layout changes.
 
 ## Installation
