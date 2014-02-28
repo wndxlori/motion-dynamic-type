@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jack Dean Watson-Hamblin"]
   spec.email         = ["info@fluffyjack.com"]
   spec.summary       = %q{Simplifying even further iOS 7's Dynamic Type}
-  spec.description   = %q{Simplifying even further iOS 7's Dynamic Type}
-  spec.homepage      = ""
+  spec.description   = %q{A simple RubyMotion wrapper for iOS 7's Dynamic Type to make it easier to set the fonts, as well as getting the information you need and notifications for responding to the layout changes}
+  spec.homepage      = "https://github.com/FluffyJack/motion-dynamic-type"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
