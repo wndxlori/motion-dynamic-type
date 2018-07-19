@@ -1,4 +1,11 @@
 language: objective-c
+env:
+    - TMP_DIR=./tmp
+before_install:
+    - sudo chown -R travis ~/Library/RubyMotion
+    - mkdir -p ~/Library/RubyMotion/build
+    - sudo motion update && sudo motion repo
+    - gem install bundler
 gemfile:
   - Gemfile
 script: bundle exec rake spec
