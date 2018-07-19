@@ -1,8 +1,14 @@
+# -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
+$:.unshift("~/.rubymotion/rubymotion-templates")
+
 require 'motion/project/template/ios'
 
-require 'bundler'
-Bundler.require(:development)
+begin
+  require 'bundler'
+  Bundler.require(:development)
+rescue LoadError
+end
 
 require 'motion-dynamic-type'
 
