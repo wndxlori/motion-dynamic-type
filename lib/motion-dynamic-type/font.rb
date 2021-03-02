@@ -30,19 +30,19 @@ module MotionDynamicType
       end
       
       def large_title
-        UIFont.preferred.FontForTextStyle(UIFontTextStyleLargeTitle)
+        UIFont.preferredFontForTextStyle(UIFontTextStyleLargeTitle)
       end
       
       def title_one
-        UIFont.preferred.FontForTextStyle(UIFontTextStyleTitle1)
+        UIFont.preferredFontForTextStyle(UIFontTextStyleTitle1)
       end
       
       def title_two
-        UIFont.preferred.FontForTextStyle(UIFontTextStyleTitle2)
+        UIFont.preferredFontForTextStyle(UIFontTextStyleTitle2)
       end
       
       def title_three
-        UIFont.preferred.FontForTextStyle(UIFontTextStyleTitle3)
+        UIFont.preferredFontForTextStyle(UIFontTextStyleTitle3)
       end
 
     end
