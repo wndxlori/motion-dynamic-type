@@ -59,7 +59,7 @@ describe MotionDynamicType::Font do
   end
   
   describe '#callout' do
-  it "should have the same font descriptor as the callout font descriptor when asked for the callout font"
+  it "should have the same font descriptor as the callout font descriptor when asked for the callout font" do
     mdt_font_descriptor = MotionDynamicType::Font.callout.fontDescriptor
     ui_font_descriptor = UIFontDescriptor.preferredFontDescriptorWithTextStyle(UIFontTextStyleCallout)
     mdt_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"].should == ui_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"]
@@ -67,7 +67,7 @@ describe MotionDynamicType::Font do
 end
 
 describe '#large_title' do
-  it "should have the same font descriptor as the large title font descriptor when asked for the large title font"
+  it "should have the same font descriptor as the large title font descriptor when asked for the large title font" do
     mdt_font_descriptor = MotionDynamicType::Font.large_title.fontDescriptor
     ui_font_descriptor = UIFontDescriptor.preferredFontDescriptorWithTextStyle(UIFontTextStyleLargeTitle)
     mdt_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"].should == ui_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"]
@@ -75,7 +75,7 @@ describe '#large_title' do
 end
 
 describe '#title_one' do
-  it "should have the same font descriptor as the title one font descriptor when asked for the title one font"
+  it "should have the same font descriptor as the title one font descriptor when asked for the title one font" do
     mdt_font_descriptor = MotionDynamicType::Font.title_one.fontDescriptor
     ui_font_descriptor = UIFontDescriptor.preferredFontDescriptorWithTextStyle(UIFontTextStyleTitle1)
     mdt_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"].should == ui_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"]
@@ -83,7 +83,7 @@ describe '#title_one' do
 end
 
 describe '#title_two' do
-  it "should have the same font descriptor as the title two font descriptor when asked for the title two font"
+  it "should have the same font descriptor as the title two font descriptor when asked for the title two font" do
     mdt_font_descriptor = MotionDynamicType::Font.title_two.fontDescriptor
     ui_font_descriptor = UIFontDescriptor.preferredFontDescriptorWithTextStyle(UIFontTextStyleTitle2)
     mdt_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"].should == ui_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"]
@@ -91,7 +91,7 @@ describe '#title_two' do
 end
 
 describe '#title_three' do
-  it "should have the same font descriptor as the title three font descriptor when asked for the title three font"
+  it "should have the same font descriptor as the title three font descriptor when asked for the title three font" do
     mdt_font_descriptor = MotionDynamicType::Font.title_three.fontDescriptor
     ui_font_descriptor = UIFontDescriptor.preferredFontDescriptorWithTextStyle(UIFontTextStyleTitle3)
     mdt_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"].should == ui_font_descriptor.fontAttributes["NSCTFontUIUsageAttribute"]
