@@ -4,7 +4,7 @@ module MotionDynamicType
       def body
         UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
       end
-
+      
       def headline
         UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
       end
@@ -24,6 +24,27 @@ module MotionDynamicType
       def footnote
         UIFont.preferredFontForTextStyle(UIFontTextStyleFootnote)
       end
+      
+      def callout
+        UIFont.preferredFontForTextStyle(UIFontTextStyleCallout)
+      end
+      
+      def large_title
+        UIFont.preferredFontForTextStyle(UIFontTextStyleLargeTitle)
+      end
+      
+      def title_one
+        UIFont.preferredFontForTextStyle(UIFontTextStyleTitle1)
+      end
+      
+      def title_two
+        UIFont.preferredFontForTextStyle(UIFontTextStyleTitle2)
+      end
+      
+      def title_three
+        UIFont.preferredFontForTextStyle(UIFontTextStyleTitle3)
+      end
+
     end
   end
 end
