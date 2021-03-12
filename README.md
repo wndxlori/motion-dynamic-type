@@ -3,11 +3,11 @@
 [![Gem Version](https://badge.fury.io/rb/motion-dynamic-type.png)](http://badge.fury.io/rb/motion-dynamic-type) [![Build Status](https://travis-ci.org/wndxlori/motion-dynamic-type.png)](https://travis-ci.org/wndxlori/motion-dynamic-type) [![Code Climate](https://codeclimate.com/github/wndxlori/motion-dynamic-type.png)](https://codeclimate.com/github/wndxlori/motion-dynamic-type)
 
 
-A simple RubyMotion wrapper for iOS 7's Dynamic Type to make it easier to set the fonts, as well as getting the information you need and notifications for responding to the layout changes.
+A simple RubyMotion wrapper for iOS's Dynamic Type to make it easier to set the fonts, as well as getting the information you need and notifications for responding to the layout changes.
 
 ## Help support this gem by learning
 
-The only reason I can keep making gems and keep them up to date is because lovely people like yourself support me. I run the [MotionInMotion screencasts](https://motioninmotion.tv/) which you can purchase individually or as a bundle, I also have a school for [RubyMotion development](https://wndx.school). All support, even small amounts really helps.
+The only reason I can keep making gems and keep them up to date is because lovely people like yourself support me. I create the [Motion in Motion](https://wndx.school/p/motion-in-motion-subscription) subscription series which you can purchase monthly or by the year, I also have an entire school for [Mobile (RubyMotion) development](https://wndx.school). All support, even small amounts really helps.
 
 ## Installation
 
@@ -34,6 +34,10 @@ This is the available functionality so far. Eventually this will be a helpful to
 These methods get a font matching up the the text style. They're just a very simple wrapper around `UIFont.preferredFontForTextStyle`, check out the source code.
 
 ```ruby
+MDT::Font.large_title
+MDT::Font.title_one
+MDT::Font.title_two
+MDT::Font.title_three
 MDT::Font.headline
 MDT::Font.subhead
 MDT::Font.body
@@ -47,5 +51,6 @@ MDT::Font.footnote
 1. Fork it ( http://github.com/wndxlori/motion-dynamic-type/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+4. Test your changes (`rake spec`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create new Pull Request
